@@ -104,7 +104,7 @@ downBreakBtn.addEventListener('click', function() {
 });
 
 startBtn.addEventListener('click', function(){ 
-    timer(4);
+    timer(secondsToStart);
     toggleButtons(true);
 })
 
