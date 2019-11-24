@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<div class="content">
+    <h1>Pomodoro Clock</h1>
+    <div class="setPomodoro">
+        
+        <div class="labels">
+            <h3>Session</h3>
+            <h3>Break</h3>
+        </div>
+        
+        <div class="setter">
+            <div class="sessionButtons">
+                <button class="upSession"><i class="fas fa-caret-up fa-2x"></i></button>
+                <p class="sessionTime"></p>
+                <button class="downSession"><i class="fas fa-caret-down fa-2x"></i></button>
+            </div>
+            
+            <div class="breakButtons">
+                <button class="upBreak"><i class="fas fa-caret-up fa-2x"></i></button>
+                <p class="breakTime"></p>
+                <button class="downBreak"><i class="fas fa-caret-down fa-2x"></i></button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="controls">
+        <div class="playResetBtn">
+            <button class="startCountDown"><i class="fas fa-play fa-4x"></i></button>
+            <button class="resetCountDown"><i class="fas fa-sync fa-4x"></i></button>
+        </div>
+        <div class="timerType">
+            <h1 class="displayType"></h1>
+        </div>
+        <div class="timer">
+            <h1 class="displayTimer"></h1>
+        </div>
+        
+        <div class="pauseStopBtn">
+            <button class="pauseCountDown"><i class="fas fa-pause fa-4x"></i></button>
+            <button class="stopCountDown"><i class="fas fa-stop fa-4x"></i></button>
+        </div>
+    </div>
+</div>
+<body>
+    
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/b68248bb48.js" crossorigin="anonymous"></script>
+</body>
+</html>
